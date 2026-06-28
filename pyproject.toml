@@ -1,0 +1,22 @@
+[project]
+name = "log-anomaly-threat-detection"
+version = "0.1.0"
+description = "AI-based anomaly detection and threat scoring for anonymized web application logs."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "pyarrow>=14.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "pyyaml>=6.0",
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "pydantic>=2.0",
+    "psycopg[binary]>=3.1"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,17 @@
+metric,value
+dataset,request_logs_30d
+row_count,50000
+column_count,28
+start_time,2026-06-07T14:33:14.691641+00:00
+end_time,2026-06-07T22:57:47.228604+00:00
+missing_timestamp,0
+missing_ip_hash,0
+missing_endpoint_template,0
+unique_ip_hashes,521
+unique_endpoint_templates,928
+suspicious_path_rows,2512
+sensitive_query_rows,0
+latency_avg_ms,184.708
+latency_p95_ms,518.622
+latency_max_ms,8474.926
+response_size_avg,1742.939

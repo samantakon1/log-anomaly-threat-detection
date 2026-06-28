@@ -1,0 +1,9 @@
+datasets:
+  request_logs_30d:
+    path: ../app_engine_logs/anonymized/app_engine_request_logs_30d_2026-06-08.generalized.jsonl
+    type: request_log
+    description: Generalized anonymized Google App Engine request logs for the primary 30-day dataset.
+  app_logs_7d:
+    path: ../app_engine_logs/anonymized/app_engine_stdout_structured_7d_2026-06-08.generalized.jsonl
+    type: structured_app_log
+    description: Generalized anonymized structured application logs for the secondary 7-day dataset.

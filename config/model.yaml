@@ -1,0 +1,8 @@
+baseline_model:
+  name: IsolationForest
+  random_state: 42
+  contamination: auto
+
+feature_windows:
+  primary_window: 1h
+  secondary_window: 5min
